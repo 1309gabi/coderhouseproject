@@ -1,0 +1,13 @@
+@media only screen and (max-width: 768px){
+    h1{font-size: 30px;}
+    .querry{height: 60px; width: 100px;}
+    .redesSociales{
+        width: 50%;
+        flex-wrap: nowrap;}
+}
+@media only screen and (max-width: 1024px){
+    h1{font-size: 28px;}
+}
+@media only screen and (max-width: 320px){
+    h1{font-size: 18px;}
+}

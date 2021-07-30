@@ -1,0 +1,61 @@
+@-webkit-keyframes animame {
+  0% {
+    width: 100px;
+  }
+  50% {
+    width: 400px;
+    background-color: #eb7f43;
+  }
+  100% {
+    width: 100px;
+    background-color: #f2f0f1;
+  }
+}
+
+@keyframes animame {
+  0% {
+    width: 100px;
+  }
+  50% {
+    width: 400px;
+    background-color: #eb7f43;
+  }
+  100% {
+    width: 100px;
+    background-color: #f2f0f1;
+  }
+}
+
+.cajita {
+  position: relative;
+  Left: 45%;
+  top: 25%;
+  width: 150px;
+  height: 150px;
+  background: -webkit-gradient(linear, right top, left top, from(#04adbf), to(#a09e23));
+  background: linear-gradient(to left, #04adbf, #a09e23);
+}
+
+@-webkit-keyframes animacion {
+  from {
+  }
+  to {
+    -webkit-transform: rotate(80deg);
+            transform: rotate(80deg);
+  }
+}
+
+@keyframes animacion {
+  from {
+  }
+  to {
+    -webkit-transform: rotate(80deg);
+            transform: rotate(80deg);
+  }
+}
+
+.cajita {
+  -webkit-animation: animacion 3s linear 1s infinite alternate;
+          animation: animacion 3s linear 1s infinite alternate;
+}
+/*# sourceMappingURL=animaciones.css.map */

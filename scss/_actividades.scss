@@ -1,0 +1,59 @@
+body{
+    .youTube iframe{
+        float: right;
+        width: 100px;
+        position: fixed;
+        right: 10px;
+        bottom: 0;
+    }
+    .actividad{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr .6fr;
+        grid-template-rows: .6fr .6fr 1fr 1fr 1fr;
+        gap: 10px;
+        grid-template-areas: 
+            "titulo titulo"
+            "texto texto"
+            "video video1"
+            "video video2"
+            "video video3";
+    }
+    .hijo{
+        border: solid 1px #fff;
+        font-size: $c;
+        padding: 10px;
+        text-align: center;
+        margin: 10px;
+        background-size: cover;   
+    }
+    .titulo{
+        background-color: #eb7f43;
+        grid-area: titulo;
+    }
+    .texto{
+        grid-area: texto;
+    }
+    .video{
+        grid-area: video;
+    }
+    .video1{
+        grid-area: video1;
+        background-image: url(Multimedias/backart.jpg);
+        width: 300px;
+        height: 180px;
+    }
+    .video2{
+        grid-area: video2;
+        background-image: url(Multimedias/backart.jpg);
+        width: 300px;
+        height: 180px;
+    }
+    .video3{
+        grid-area: video3;
+        background-image: url(Multimedias/backart.jpg);
+        width: 300px;
+        height: 180px;
+    }
+}

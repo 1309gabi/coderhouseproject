@@ -1,0 +1,21 @@
+$principal: #f2f0f1;
+$secundary: #f27b50;
+
+$headings:(
+    a: 1rem,
+    b: 1.2rem,
+    c: 1.5rem,
+    d: 1.8rem,
+    e: 2rem,
+);
+
+$a: map-get($headings, a);
+
+$b: map-get($headings, b);
+
+$c: map-get($headings, c);
+
+$d: map-get($headings, d);
+
+$e: map-get($headings, e);
+

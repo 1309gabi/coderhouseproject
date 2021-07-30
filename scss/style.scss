@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right top, #04adbf, #00afa6, #28af84, #5cac5c, #87a434, #a09e23, #b8961a, #cf8c1e, #da882b, #e38337, #eb7f43, #f27b50);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    background-size: cover;
+	background-attachment: fixed;
+        .contenedor{
+	        margin: auto;
+	        width: 90%;
+	        display:flex;
+	        flex-direction: row;
+	        flex-wrap: wrap; 
+    header{
+        width:100%;
+        padding:15px;
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .menu{
+            padding: $a;
+            background-color: $principal;
+            display: flex;
+            text-align: right;
+            list-style: none;
+            justify-content: flex-end;
+            height: auto;
+            a{
+                color: $secundary;
+                text-decoration: none;
+                padding: $c;
+                display: block;
+                font-weight: bold;
+                list-style: none;
+                a:hover{
+                    background-color: $principal;
+                    color: black;
+                    font-weight: bold
+                    }
+                }
+            }
+        }
+    }
+    main{
+        padding: $b;
+        width:70%;
+        article{
+            margin-bottom: 20px;
+            iframe{
+                vertical-align: top;
+                width: 100% }
+            h2{
+                margin:20px;
+                font-weight: normal;
+                font-size: $e  }
+            p{
+                margin:20px;
+                font-size: $a;
+                line-height: $d}
+            }
+        }
+    aside{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        background-image: url(Multimedia/backart.jpg);
+        .aside{
+            font-size: $d;
+            text-align: center;
+            padding: 40px;
+            background-color: $principal;
+            a{
+                text-decoration: none;
+                color: black;
+                a:hover{
+                    font-weight: bold;
+                    text-decoration: underline;}
+                }
+            }
+        }
+    }
+
+ 

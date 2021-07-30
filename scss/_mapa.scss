@@ -1,0 +1,35 @@
+.main2{
+    margin-bottom: 20px;
+    padding:$b;
+	width:70%;
+    img{
+        vertical-align: top;
+        width: 100%;}
+    .comoLlegar a{
+        text-decoration: none;
+        color: black;
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 20px;
+        font-size: 30px;
+        a:hover{
+            color: $principal;
+            background-color: $secundary;
+        }
+    }
+}
+.aside2{
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	background-image: url(Multimedias/backart.jpg);
+    iframe{
+	    padding: 40px;
+        width: 300px;
+        height: 300px;
+        border-radius: 100px;
+    }
+}

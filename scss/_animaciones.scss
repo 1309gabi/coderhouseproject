@@ -1,0 +1,22 @@
+@keyframes animame {
+    0%{ width: 100px; }
+    50%{ width: 400px;
+      background-color:#eb7f43; }
+    100%{ width: 100px;
+      background-color:#f2f0f1;}
+}
+.cajita{
+    position: relative;
+    Left:45%; 
+    top:25%;
+    width: 150px; 
+    height: 150px;
+    background: linear-gradient(to left, #04adbf, #a09e23);
+}
+ @keyframes animacion {
+    from { }
+    to {transform: rotate(80deg);}
+}
+.cajita{
+      animation: animacion 3s linear 1s infinite alternate;
+} 

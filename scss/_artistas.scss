@@ -1,0 +1,32 @@
+.artistas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    img{
+        width: 350px;
+        height: 250px;
+        opacity: .4;
+        border: 2px double $secundary;
+        img:hover{
+            opacity: 1;
+            border: solid 2px $principal;
+            transform: scale(1.5,1);}
+    }
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.anim{
+    width: 200px;
+   height: 100px;
+   background-color: #da882b ;
+   animation-name: animame;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease-in;
+   animation-duration: 5s;
+   animation-delay: 0s;
+   position: relative; 
+}
